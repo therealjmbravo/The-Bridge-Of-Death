@@ -1,5 +1,7 @@
-Hello
+The Bridge Of Death
 ===========
+
+A Python script to simulate the Bridge of Death scene in *Monty Python and The Holy Grail*.
 
 ## Installation
 
