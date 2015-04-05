@@ -1,4 +1,4 @@
-from random import randint
+import random
 
 name = input("What is your name? ")
 
@@ -6,15 +6,27 @@ print("Hello "+name+"!")
 
 quest = input("What is your quest? ")
 
-rand_int = randint(1,3) #(Inclusive)
+rand_int = random.randint(0,3) #(Inclusive)
 
 if rand_int == 1:
+    colorls = ['green', 'blue', 'yellow', 'red', 'orange', 'magenta', 'white', 'black', 'maroon', 'violet', 'gray', 'brown']
     color = input("What is your favorite color? ")
-    third_question = "color"
+    if color in colorls:
+        print("Right. Off you go.")
+    else:
+        print("*casts you into the abyss* Heh heh heh...")
 elif rand_int == 2:
+    capls = ['Ashur', 'Nimrud', 'Dur Sarukin', 'Nineveh']
     cap_of_assyria = input("What is the capitol of Assyria? ")
-    third_question = "assyria"
-elif rand_int == 3:
-    swallow = input("What is the airspeed velocity of an unladen swallow? ")
-    third_question = "swallow"
-
+    if cap_of_assyria in capls:
+        print("Right. Off you go.")
+    else:
+        print("*casts you into the abyss* Heh heh heh...")
+else:
+    swallow = input("What is the airspeed velocity of an unladen swallow?(in mph) ")
+    if "23" < swallow < "25":
+        print("Right. Off you go.")
+    elif swallow == "What do you mean? An African or European swallow?":
+        print("What? I don't know that! Auuuuuuuugh! *is cast into the abyss*")
+    else:
+        print("*casts you into the abyss* Heh heh heh...")
