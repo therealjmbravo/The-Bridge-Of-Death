@@ -2,9 +2,9 @@ import random
 
 print('Stop! Who would cross the Bridge of Death must answer me these questions three, \'ere the other side he see.') 
 
-print('What is your name? ')
+input('What is your name? ')
 
-print('What is your quest? ')
+input('What is your quest? ')
 
 rand_int = random.randint(0,3) #(Inclusive)
 
