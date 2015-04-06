@@ -5,7 +5,7 @@ A Python script to simulate the Bridge of Death scene in *Monty Python and The H
 
 ## Installation
 
-Clone the repository and run the hello.py file with Python3 or better. *Is NOT compatible with Python2.x*
+Clone the repository and run the the-bridge-of-death.py file with Python3 or better. *Is NOT compatible with Python2.x*
 
 ## Contributing
 
