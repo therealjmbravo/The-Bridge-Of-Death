@@ -1,5 +1,7 @@
 import random
 
+print('Stop! Who would cross the Bridge of Death must answer me these questions three, \'ere the other side he see.') 
+
 print('What is your name? ')
 
 print('What is your quest? ')
